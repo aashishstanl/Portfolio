@@ -1,0 +1,81 @@
+.Project1 {
+  background-color:black;
+  box-shadow: 5px  4px 5px rgba(111, 236, 245, 0.6);
+  border-radius: 4px;
+  width: 618px;
+  height: auto;
+  height: 400px;
+  padding: 10px;
+  color: white; 
+}
+.Project1 p{
+  font-size: larger;
+}
+.projectContainer section{
+  display: flex;
+  gap: 10px;
+  background-color: #E09C93;
+  height: 75vh;
+  border-radius: 5px;
+  align-items: center;
+  margin:10px 100px;
+  justify-content: center;
+}
+.projectContainer hr{
+  width: 380px;
+}
+.Project1 h1 {
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 26px;
+  line-height: 38px;
+  color: white;
+}
+.Project1 .span {
+  display: flex;
+  column-gap: 20px;
+}
+
+.Display{
+  background-color:antiquewhite;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  width: 300px;
+  
+ 
+}
+.Display image{
+  background-image: cover;
+  height: 700px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projectContainer section{
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    background-color: white;
+   
+  }
+  .Project1 {
+    text-align: center;
+    font-size: medium;
+    width: 95%;
+    
+
+
+  }
+  .Project1 .span{
+    justify-content: center;
+  }
+  .Project1 p{
+    font-size: medium;
+  }
+  .Display{
+    background-image: cover;
+    width: 100%;
+  }
+}

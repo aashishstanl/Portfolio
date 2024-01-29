@@ -1,0 +1,15 @@
+.IntroWrapperButton {
+  width: 208px;
+  height: 47px;
+  left: 148px;
+  top: 477px;
+  background: #ff6464;
+  border-radius: 2px;
+
+  /* font */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
