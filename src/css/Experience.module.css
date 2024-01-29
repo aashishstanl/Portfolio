@@ -1,0 +1,33 @@
+
+@media  screen and (max-width:749px) {
+  .workExperience{
+    border-radius: 5px;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+  
+  }
+  .workExperience h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}
+@media  screen and (min-width:1024px) {
+  .workExperience{
+    border-radius: 5px;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+  
+  }
+  .workExperience h2{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}
