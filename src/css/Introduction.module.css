@@ -5,7 +5,8 @@
   min-width: 110px;
   border-radius: 5px;
   justify-content: center;
-  align-items: center;
+ align-items: center;
+ margin-top: 80px;
   min-width: 380px;
   font-family: 'Playfair Display';
 }
@@ -18,6 +19,7 @@
   .ImageWrapper img {
     width: 250px;
     height: 250px;
+  
   }
 }
 @media screen and (max-width: 1024px) {
