@@ -15,11 +15,12 @@
   display: flex;
   gap: 10px;
   background-color: #E09C93;
-  height: 75vh;
+  height: 60vh;
   border-radius: 5px;
   align-items: center;
   margin:10px 100px;
   justify-content: center;
+  
 }
 .projectContainer hr{
   width: 380px;
@@ -54,6 +55,8 @@
 
 @media screen and (max-width: 1000px) {
   .projectContainer section{
+    
+    
     margin: 10px;
     padding: 10px;
     flex-direction: column-reverse;
@@ -78,4 +81,5 @@
     background-image: cover;
     width: 100%;
   }
+ 
 }
