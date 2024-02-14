@@ -1,5 +1,5 @@
 
-@media  screen and (max-width:749px) {
+@media  screen and (max-width:1024px) {
   .workExperience{
     border-radius: 5px;
     margin: 20px;
@@ -13,6 +13,29 @@
     text-align: center;
     margin-bottom: 30px;
     margin-top: 0;
+  }
+  .workExperience client{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+    background-color: blanchedalmond;
+    
+  }
+    client h6{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    width: 12%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    align-items: center;
   }
 }
 @media  screen and (min-width:1024px) {
@@ -29,5 +52,25 @@
     text-align: left;
     margin-bottom: 30px;
     margin-top: 0;
+  }
+  .workExperience client{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 2rem;
+    padding: 0 10%;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+  }
+  client h6{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    width: 15%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    border-radius: 10px;
+    align-items: center;
   }
 }

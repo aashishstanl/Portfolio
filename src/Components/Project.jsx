@@ -7,6 +7,7 @@ function Project() {
   return (
     <div id="Project">
       <h1>PROJECTS</h1>
+
       <div className={Projects.projectContainer}>
         <ProjectCard></ProjectCard>
       </div>
