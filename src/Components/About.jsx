@@ -40,7 +40,6 @@ function About() {
           </a>
         </div>
       </div>
-      <Experience></Experience>
     </>
   );
 }

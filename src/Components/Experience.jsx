@@ -3,7 +3,7 @@ import style from "../css/Experience.module.css";
 
 function Experience() {
   return (
-    <div className={style.workExperience}>
+    <div className={style.workExperience} id="experience">
       <h2>Work Experience</h2>
       <div className="experience-item">
         <h3>SOFTWARE ENGINEER INTERN @ EY </h3> <p>Sep 2023 - Dec 2023</p>
@@ -12,27 +12,45 @@ function Experience() {
           transformation using HTML5, Bootstrap, and JavaScript.
         </p>
         <p>
-          Transformed data for the US clients using Ateryx. created the proper
+          Transformed data for the US clients using Ateryx. Created the proper
           insightful dashboards on GL Analyzer and helix tools which provide the
-          client a proper visual of data in the perticular quarter.
-          <h5>Few client's data I transformed</h5>
-          <client>
-            <h6>YAMAHA MOTOR CORPORATION USA</h6>
-            <h6>PACCAR</h6> <h6>SKISUI HOUSE LTD</h6>
+          client a proper visual of data in the perticular quarter.{" "}
+        </p>
+        <br />
+        <br />
+        <h5>MY CLIENTS AT EY</h5>
+        <client>
+          <img src="src/Images/YAMAHA motor.jpeg" alt="Yamaha Motor USA" />
+          <img src="src/Images/Alphabet.jpeg" alt="Alphabet" />
+          <img src="src/Images/JCM.jpeg" alt="JCM America" />
+          <img src="src/Images/PACCAR.jpeg" alt="PACCAR" />
+          <img src="src/Images/Skisui house ltd.png" alt="SKISUI HOUSE LTD" />
+          <img
+            src="src/Images/university of California.jpeg"
+            alt="University of California"
+          />
+          <img src="src/Images/Udr Inc.jpeg" alt="Udr Inc" />
+          <img
+            src="src/Images/Caris life science.png"
+            alt="Caris Life Science"
+          />
+          {/* <h6>PACCAR</h6>
+            <h6>SKISUI HOUSE LTD</h6>
             <h6>CARIS LIFE SCIENCE</h6>
             <h6>JCM AMERICA</h6>
             <h6>Udr Inc</h6>
             <h6>CALIFORNIA UNIVERSITY</h6>
-            <h6>ALPHABET</h6>
-          </client>
-        </p>
+            <h6>ALPHABET</h6> */}
+        </client>
       </div>
+      <br />
+      <br />
       <div className="experience-item">
         <h3>ENGINEERING INTERN @ MPOWER FINANCING</h3>
         <p>May 2022 - Nov 2022</p>
         <p>
           Worked on different projects such as: Web Scraping, Data Validation
-          and involed in the development process of a web application using
+          and involved in the development process of a web application using
           React, HTML, CSS, JavaScript. During my Engineer Internship here, I
           collaborated closely with the data team to construct a robust database
           for analyzing education costs, a vital facet of loan approvals.

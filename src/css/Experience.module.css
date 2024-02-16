@@ -1,47 +1,98 @@
 
-@media  screen and (max-width:1024px) {
+@media  screen and (max-width:600px) {
   .workExperience{
     border-radius: 5px;
-    margin: 20px;
-    text-align: left;
+    margin: 10px 50px;
+    text-align: center;
     padding: 20px;
     padding-bottom: 20px;
     font-size: medium;
+    font-family: 'Arial', sans-serif;
   
   }
   .workExperience h2{
     text-align: center;
+    font-size: 1.5rem;
     margin-bottom: 30px;
     margin-top: 0;
   }
   .workExperience client{
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 0rem 1rem;
+    gap: 1rem 1rem;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 5px darkgoldenrod;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     
   }
-    client h6{
-    background-color: black;
-    color: aliceblue;
-    padding: 30px;
-    width: 12%;
-    height: 30px;
+    client img{
+
+    margin: 20px;
+    width: fit-content;
+    height: 100px;
     display: flex;
+    margin-bottom: 20px;
     justify-content: center;
     border-radius: 10px;
-    text-align: center;
-    font-size: small;
     align-items: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1.4s ease-in-out;
+    }
+    
+
+}
+
+@media  screen and (max-width:1024px) {
+  .workExperience{
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 20px;
+    font-size: medium;
+    font-family: 'Arial', sans-serif;
+  
   }
+  .workExperience h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+  .workExperience client{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+    /* background-color: blanchedalmond; */
+    
+  }
+    client img{
+
+    margin: 20px;
+    width: fit-content;
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1.4s ease-in-out;
+    }
+
 }
 @media  screen and (min-width:1024px) {
   .workExperience{
     border-radius: 5px;
-    margin: 20px;
+    margin: 20px 100px 20px 100px;
     text-align: left;
     padding: 20px;
     padding-bottom: 20px;
@@ -52,25 +103,26 @@
     text-align: left;
     margin-bottom: 30px;
     margin-top: 0;
+    font-size: 1.5rem;
   }
   .workExperience client{
     display: flex;
     flex-wrap: wrap;
     gap: 0rem 2rem;
     padding: 0 10%;
-    background-color: blanchedalmond;
+    background-color: silver;
     margin-top: 10px;
   }
-  client h6{
-    background-color: black;
+  client img{
+    
     color: aliceblue;
     padding: 30px;
-    width: 15%;
-    min-height: 30px;
+    width: 14%;
+    height: auto;
     display: flex;
     justify-content: center;
-    font-size: large;
-    border-radius: 10px;
+    border-radius: 50px;
     align-items: center;
+    transition: all 1.4s ease-in-out;
   }
 }

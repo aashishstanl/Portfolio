@@ -3,22 +3,34 @@
   box-shadow: 5px  4px 5px rgba(111, 236, 245, 0.6);
   border-radius: 4px;
   width: 618px;
-  
-  height: 400px;
+  height: 280px;
   padding: 10px;
   color: white; 
+  
+}
+.ProjectSection::-webkit-scrollbar {
+  height: 10px;
+}
+.ProjectSection::-webkit-scrollbar-thumb {
+  background-color: rgba(111, 236, 245, 0.6);;
+  /* max-width: 20%; */
+  outline: 2px solid grey;
+}
+.projectHeader{
+  margin: 0px 0px 10px 100px;
 }
 .Project1 p{
   font-size: larger;
 }
+
+
 .projectContainer section{
   display: flex;
   gap: 10px;
-  background-color: #E09C93;
-  min-height: 60vh;
+  min-height: 35vh;
   border-radius: 5px;
   align-items: center;
-  margin:10px 100px;
+  margin:10px 80px;
   justify-content: center;
   padding: 20px;
   transition: all 1.1s ease-in-out;
@@ -26,7 +38,11 @@
   
 }
 .projectContainer hr{
-  width: 380px;
+  width: 90%;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Project1 h1 {
   font-style: normal;
@@ -46,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 420px;
+  height: 300px;
   width: 300px;
   
  
@@ -59,21 +75,19 @@
 @media screen and (max-width: 1000px) {
   .projectContainer section{
     
-    
     margin: 0px;
     padding: 0px;
     flex-direction: column-reverse;
     background-color: white;
+    margin-bottom: 20px;
    
   }
+
   .Project1 {
     text-align: center;
     font-size: medium;
     width: 95%;
     height: fit-content;
-    
-
-
   }
   .Project1 .span{
     justify-content: center;
@@ -85,6 +99,65 @@
     background-image: cover;
     width: 100%;
     height: fit-content;
+    
+  }
+  .projectHeader{
+    text-align: center;
+    margin: 0 0 10px;
+    
+  }
+  
+}
+
+@media screen and (min-width:1024px) {
+  .ProjectSection{
+    background-color: black;
+    display: flex;
+    overflow-x: scroll;
+    height: 400px;
+    
+  
+  }
+  .projectHeader{
+    
+   font-size: 30px;
+   
+    
+  }
+
+
+}
+@media screen and (max-width:600px) {
+  .projectContainer section{
+    
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    transition: all 1.1s ease-in-out;
+  
+  }
+  .Project1 h1 {
+    font-style:normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    color: white;
+  }
+  .Project1 .span {
+    display: flex;
+    column-gap:5px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .Project1 p{
+    font-size: small;
+  }
+  .Display{
+    background-image: cover;
+    width: 50%;   
+    
+    padding: 5px;
     
   }
  

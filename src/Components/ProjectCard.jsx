@@ -4,7 +4,7 @@ import ProjectDetail from "../Data/projects.json";
 
 function ProjectCard() {
   return (
-    <>
+    <div className={Projects.ProjectSection}>
       {ProjectDetail.project.map((ProjectDetail) => (
         <>
           <section key={ProjectDetail.Title}>
@@ -13,6 +13,7 @@ function ProjectCard() {
             </div>
             <div className={Projects.Project1}>
               <h1>{ProjectDetail.Heading}</h1>
+
               <div className={Projects.span}>
                 <span>{ProjectDetail.year}</span>
                 <span>|</span>
@@ -25,7 +26,7 @@ function ProjectCard() {
           <hr />
         </>
       ))}
-    </>
+    </div>
   );
 }
 

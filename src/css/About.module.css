@@ -1,20 +1,18 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .About{
-    
     border-radius: 5px;
     margin: 20px;
     text-align: center;
     padding: 20px;
     padding-bottom: 20px;
     font-size: medium;
-    
-
+    font-family: Arial, sans-serif;
   }
   .About h2{
     margin-top: 0;
     margin-bottom: 16px;
-    font-family: sans-serif;
+    font-family: 'Arial';
     font-size: 30px;
     line-height: 30px;
     font-weight: 500;

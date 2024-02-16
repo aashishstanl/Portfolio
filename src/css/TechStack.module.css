@@ -1,0 +1,22 @@
+.techStackContainer{
+  
+  width: 80%;
+  height: 70vh auto;
+  background-image: url('src/Images/Tech Stack background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 3em 10%;
+  
+}
+.TechStacks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 1.4s ease-in-out;
+}
+.techStackContainer h2{
+  text-align: center;
+  padding: 1em;
+}

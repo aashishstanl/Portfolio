@@ -6,12 +6,12 @@
   justify-content: center;
   list-style: none;
   font-size: 30px;
-  font-weight: 900;
-  background-color: grey;
-  gap: 7rem;
-  height: 70px;
+  font-weight: 600;
+  background-color: silver;
+  gap: 6rem;
+  height: 50px;
   align-items: center;
-  overflow-x: hidden;
+  
   min-width: 380px;
   
   position: fixed;
@@ -38,13 +38,14 @@
     gap: 2.5rem;
 
   }
-  @media screen and (min-width:380px) {
+  @media screen and (min-width:440px) {
     .Header {
-      
-      
+    
       background-color:darksalmon;
-      gap: 1rem;   
+       gap: .5rem;
+       font-size: medium;
       min-width: 380px;
+      justify-content: center;
       padding-left: 2px;
     }
   
