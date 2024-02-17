@@ -7,7 +7,7 @@ function TechStack() {
       <h2>Crafting Excellence: My Development Tech Stacks</h2>
       <client className={techStack.TechStacks}>
         <img
-          src="src/Images/TechStack Logo/javaScript.png"
+          src="https://assets.codegrip.tech/wp-content/uploads/2021/09/28165501/JavaScript_Logo2.png"
           alt="javaScript logo"
         />
         <img src="src/Images/TechStack Logo/HTML.png" alt="HTML logo" />
