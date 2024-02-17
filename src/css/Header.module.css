@@ -41,7 +41,7 @@
       justify-content: center;
     }
   }
-  @media screen and (min-width: 425px) {
+  @media screen and (max-width: 425px) {
     .Header {
       background-color: darksalmon;
       gap: 5px;
