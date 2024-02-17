@@ -1,43 +1,39 @@
 .Project1 {
-  background-color:black;
-  box-shadow: 5px  4px 5px rgba(111, 236, 245, 0.6);
+  background-color: black;
+  box-shadow: 5px 4px 5px rgba(111, 236, 245, 0.6);
   border-radius: 4px;
   width: 618px;
   height: 280px;
   padding: 10px;
-  color: white; 
-  
+  color: white;
 }
 .ProjectSection::-webkit-scrollbar {
   height: 10px;
 }
 .ProjectSection::-webkit-scrollbar-thumb {
-  background-color: rgba(111, 236, 245, 0.6);;
+  background-color: rgba(111, 236, 245, 0.6);
   /* max-width: 20%; */
   outline: 2px solid grey;
 }
-.projectHeader{
+.projectHeader {
   margin: 0px 0px 10px 100px;
 }
-.Project1 p{
+.Project1 p {
   font-size: larger;
 }
 
-
-.projectContainer section{
+.projectContainer section {
   display: flex;
   gap: 10px;
   min-height: 35vh;
   border-radius: 5px;
   align-items: center;
-  margin:10px 80px;
+  margin: 10px 80px;
   justify-content: center;
   padding: 20px;
   transition: all 1.1s ease-in-out;
-  
-  
 }
-.projectContainer hr{
+.projectContainer hr {
   width: 90%;
   margin: 5%;
   display: flex;
@@ -56,31 +52,27 @@
   column-gap: 20px;
 }
 
-.Display{
-  background-color:antiquewhite;
+.Display {
+  background-color: antiquewhite;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
   width: 300px;
-  
- 
 }
-.Display image{
+.Display img {
   background-image: cover;
-  height: 700px;
+  height: 200px;
 }
 
-@media screen and (max-width: 1000px) {
-  .projectContainer section{
-    
+@media screen and (max-width: 768px) {
+  .projectContainer section {
     margin: 0px;
     padding: 0px;
     flex-direction: column-reverse;
     background-color: white;
     margin-bottom: 20px;
-   
   }
 
   .Project1 {
@@ -89,51 +81,47 @@
     width: 95%;
     height: fit-content;
   }
-  .Project1 .span{
+  .Project1 .span {
     justify-content: center;
   }
-  .Project1 p{
+  .Project1 p {
     font-size: medium;
   }
-  .Display{
+  .Display {
     background-image: cover;
     width: 100%;
     height: fit-content;
-    
   }
-  .projectHeader{
+  .projectHeader {
     text-align: center;
     margin: 0 0 10px;
-    
   }
-  
 }
 
-@media screen and (min-width:1024px) {
-  .ProjectSection{
+@media screen and (min-width: 800px) {
+  .ProjectSection {
     background-color: black;
     display: flex;
     overflow-x: scroll;
     height: 400px;
+    margin: 0;
+    padding: 0;
   }
-  .projectHeader{   
-   font-size: 30px;   
+  .projectHeader {
+    font-size: 30px;
   }
-
-
 }
-@media screen and (max-width:600px) {
-  .projectContainer section{
+@media screen and (max-width: 600px) {
+  .projectContainer section {
     min-width: 375px;
     flex-direction: row;
     margin: 0;
     padding: 0;
     font-size: 16px;
     transition: all 1.1s ease-in-out;
-  
   }
   .Project1 h1 {
-    font-style:normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 38px;
@@ -141,32 +129,30 @@
   }
   .Project1 .span {
     display: flex;
-    column-gap:5px;
+    column-gap: 5px;
     font-size: 10px;
     margin-bottom: 10px;
   }
-  .Project1 p{
+  .Project1 p {
     font-size: small;
   }
-  .Display{
+  .Display {
     background-image: cover;
-    width: 50%;   
-    
+    width: 50%;
+
     padding: 30px;
-    
   }
-  .Display img{
+  .Display img {
     background-image: cover;
     width: 100%;
     height: 100%;
   }
-  .projectContainer hr{
+  .projectContainer hr {
     width: 90%;
-    margin:  5%;
+    margin: 5%;
     display: flex;
     align-items: center;
     min-width: 375px;
     justify-content: center;
   }
- 
 }
