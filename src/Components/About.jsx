@@ -8,11 +8,11 @@ function About() {
       <div className={style.About} id="about-me">
         <h2>About Me</h2>
         <p>
-          I first got into development when I decided to pursue Bachleor's in
+          I first got into development when I decided to pursue a bachelor's in
           <strong> Computer Science Engineering</strong> from MERI College of
           Engineering of Technology. From then on, my passion towards
           development had sparked greatly which allowed me to spend countless
-          days and night improving my skills and knowledge. In addition to my
+          days and nights improving my skills and knowledge. In addition to my
           day-to-day work, I love writing about my personal and professional
           experiences and regularly share my additional fun work on social
           media. Also, I've been actively engaging in various speaking
@@ -36,7 +36,7 @@ function About() {
             className="btn btn-success"
             target="_blank"
           >
-            Linkdin
+            LinkedIn
           </a>
         </div>
       </div>
