@@ -20,18 +20,36 @@ function Experience() {
         <br />
         <h5>MY CLIENTS AT EY</h5>
         <client>
-          <img src="src/Images/YAMAHA motor.jpeg" alt="Yamaha Motor USA" />
-          <img src="src/Images/Alphabet.jpeg" alt="Alphabet" />
-          <img src="src/Images/JCM.jpeg" alt="JCM America" />
-          <img src="src/Images/PACCAR.jpeg" alt="PACCAR" />
-          <img src="src/Images/Skisui house ltd.png" alt="SKISUI HOUSE LTD" />
           <img
-            src="src/Images/university of California.jpeg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-gkEpg5YClVWhf9IjTDJ-RjS6Jrqrdwg0-w&usqp=CAU"
+            alt="Yamaha Motor USA"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMpoXT3Go8YRlEwMqZguqnfcp1Uho3AwwnZJF39Y8EC0DMvuUjAqOGHO_CCgvySsoEI4&usqp=CAU"
+            alt="Alphabet"
+          />
+          <img
+            src="https://media.licdn.com/dms/image/C4E0BAQH7Yo4ZeRetrg/company-logo_200_200/0/1631339441546?e=2147483647&v=beta&t=FKQmkqGbJogLp-UyZyhHEGfh5uk-6FtAVN2LX6nzTvA"
+            alt="JCM America"
+          />
+          <img
+            src="https://media.licdn.com/dms/image/C4E0BAQEG7gMlJx81yA/company-logo_200_200/0/1630631207934/paccar_engine_company_logo?e=2147483647&v=beta&t=rBjJadyZyxeSRTZPFUfqoiUEjTsStP70Uj2LlLrTnGY"
+            alt="PACCAR"
+          />
+          <img
+            src="https://media.licdn.com/dms/image/sync/D5627AQHWWRld55de2g/articleshare-shrink_800/0/1704866983661?e=2147483647&v=beta&t=__24txRENqjPrPjdPr9bdChot40j9Uvw-5mx_wCHY9k"
+            alt="SKISUI HOUSE LTD"
+          />
+          <img
+            src="https://media.licdn.com/dms/image/D560BAQGvmADfk7z7EQ/company-logo_200_200/0/1698083820038/university_of_california_logo?e=2147483647&v=beta&t=QrLWY7nRIGW1FPglKEs3L75eGecl606awWCBFD9JaVw"
             alt="University of California"
           />
-          <img src="src/Images/Udr Inc.jpeg" alt="Udr Inc" />
           <img
-            src="src/Images/Caris life science.png"
+            src="https://media.licdn.com/dms/image/C4D0BAQGangr9mwtWeA/company-logo_200_200/0/1655395859991/udr_logo?e=2147483647&v=beta&t=wDeq-NC9h6Dm_f2ipbcEr5iou3eGFThNubvX7I6kNjs"
+            alt="Udr Inc"
+          />
+          <img
+            src="https://mma.prnewswire.com/media/830740/Caris_Life_Sciences_Logo.jpg?w=200"
             alt="Caris Life Science"
           />
           {/* <h6>PACCAR</h6>

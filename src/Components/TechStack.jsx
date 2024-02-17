@@ -11,17 +11,20 @@ function TechStack() {
           alt="javaScript logo"
         />
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6BaPUhJMAROwqU2rlBJwLYs2i0y6J5OSkA&usqp=CAU"
+          src="https://www.svgrepo.com/show/452228/html-5.svg"
           alt="HTML logo"
         />
-        <img src="src/Images/TechStack Logo/CSS.png" alt="CSS logo" />
         <img
-          src="src/Images/TechStack Logo/BootStrap.jpeg"
+          src="https://www.svgrepo.com/show/452185/css-3.svg"
+          alt="CSS logo"
+        />
+        <img
+          src="https://www.svgrepo.com/show/353498/bootstrap.svg"
           alt="Bootstrap logo"
         />
         <img
           src="https://www.svgrepo.com/show/452093/redux.svg"
-          alt="React logo"
+          alt="Redux logo"
         />
         <img
           src="https://www.svgrepo.com/show/452092/react.svg"
@@ -29,11 +32,11 @@ function TechStack() {
         />
 
         <img
-          src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postgresql-icon.png"
+          src="https://www.svgrepo.com/show/373965/pgsql.svg"
           alt="PostgresSQL"
         />
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz44FpQ6CBG8etCuNa5rF1tsc9k9ijmDp_tg&usqp=CAU"
+          src="https://www.svgrepo.com/show/353780/github-icon.svg"
           alt="Git"
         />
         <img
