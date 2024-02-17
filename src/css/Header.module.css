@@ -12,7 +12,7 @@
   height: 50px;
   align-items: center;
   
-  min-width: 464px;
+  min-width: 375px;
   
   position: fixed;
   width: 100%;
@@ -44,7 +44,7 @@
       background-color:darksalmon;
        gap: 20px;
        font-size: medium;
-       min-width: 464px;
+       min-width: 375px;
       justify-content: center;
       padding-left: 2px;
       

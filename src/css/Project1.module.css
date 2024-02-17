@@ -124,7 +124,7 @@
 }
 @media screen and (max-width:600px) {
   .projectContainer section{
-    min-width: 464px;
+    min-width: 375px;
     flex-direction: row;
     margin: 0;
     padding: 0;

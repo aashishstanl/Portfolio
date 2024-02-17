@@ -88,6 +88,6 @@
 
 @media screen and (max-width:600px){
   .About{
-    min-width: 464px;
+    min-width: 375px;
   }
 }
