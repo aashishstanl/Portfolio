@@ -1,7 +1,7 @@
-.Header{
- margin: 0;
- left: 0;
- right: 0;
+.Header {
+  margin: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -11,45 +11,44 @@
   gap: 6rem;
   height: 50px;
   align-items: center;
-  
+
   min-width: 375px;
-  
+
   position: fixed;
   width: 100%;
   top: 0px;
-
-
 }
-.Header a{
+.Header a {
   text-decoration: none;
   color: black;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   padding: 8px;
   border-radius: 5px;
 }
 
-
-@media screen  and (max-width: 1024px)  {
+@media screen and (max-width: 1024px) {
   .Header {
-    
     flex-wrap: nowrap;
     overflow-x: hidden;
     font-size: 20px;
     gap: 2.5rem;
-
   }
-  @media screen and  (max-width:600px) {
+  @media screen and (min-width: 426px) and (max-width: 600px) {
     .Header {
-    
-      background-color:darksalmon;
-       gap: 20px;
-       font-size: medium;
-       min-width: 375px;
+      background-color: darksalmon;
+      gap: 20px;
+      font-size: medium;
       justify-content: center;
-      padding-left: 2px;
-      
     }
-  
   }
-
+  @media screen and (min-width: 425px) {
+    .Header {
+      background-color: darksalmon;
+      gap: 5px;
+      font-size: small;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+  }
 }

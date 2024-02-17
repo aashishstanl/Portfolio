@@ -4,41 +4,16 @@ import styleIntro from "../css/Introduction.module.css";
 import styleTextWrapper from "../css/TextWrapper.module.css";
 import styleButton from "../css/IntroWrapperButton.module.css";
 import imgStyle from "../css/ImageWrapper.module.css";
-import Headerstyle from "../css/Header.module.css";
+
 import ProfileData from "../Data/myData.json";
+import Header from "./Header";
 
 function Introduction() {
   //downloading the resume
-  const handleDownload = () => {
-    fetch(ProfileData.ResumeLink)
-      .then((response) => response.blob())
-      .then((blob) => {
-        saveAs(blob, `${ProfileData.name}-resume.pdf`);
-      })
-      .catch((error) => {
-        console.error("Error downloading file:", error);
-      });
-  };
+
   return (
     <>
-      <ul className={Headerstyle.Header}>
-        <a href="">
-          <li>Home</li>
-        </a>
-        <a href="#about-me">
-          <li>About</li>
-        </a>
-        <a href="#Project">
-          <li>Projects</li>
-        </a>
-        <a href="#experience">
-          <li>Experience</li>
-        </a>
-        <a href="">
-          <li>Education</li>
-        </a>
-      </ul>
-
+      <Header></Header>
       <section className={styleIntro.IntroWrapper}>
         <div className={styleTextWrapper.TextWrapper}>
           {/* profile information */}
@@ -46,10 +21,7 @@ function Introduction() {
             Hi, I am <span> {ProfileData.name}</span>
           </h1>
           <p>{ProfileData.description}</p>
-          <button
-            className={styleButton.IntroWrapperButton}
-            onClick={handleDownload}
-          >
+          <button className={styleButton.IntroWrapperButton}>
             <a
               style={{ textDecoration: "none", color: "white" }}
               href={ProfileData.ResumeLink}

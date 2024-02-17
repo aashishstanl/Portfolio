@@ -9,7 +9,6 @@
   
 }
 
-
 .TextWrapper p {
   font-style: normal;
   font-weight: 600;
@@ -28,5 +27,11 @@
     margin-top: 35px;
     max-width: 400px;
     
+  }
+}
+@media screen and (max-width: 768px) {
+  .TextWrapper {
+    text-align: center;
+    align-items: center;
   }
 }
