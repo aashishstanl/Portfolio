@@ -58,4 +58,20 @@
   .ContactFrom button {
     background-color: #e9967a;
   }
+  .ContactContainer .popUp {
+    display: none;
+  }
+}
+
+/* for tablet or laptop */
+@media screen and (min-width: 426px) {
+  .ContactContainer .popUp {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+  .ContactDetail,
+  .ContactFrom {
+    display: none;
+  }
 }

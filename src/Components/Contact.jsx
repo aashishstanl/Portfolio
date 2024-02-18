@@ -5,6 +5,10 @@ function Contact() {
   return (
     <>
       <section className={style.ContactContainer}>
+        <h3 className={style.popUp}>
+          We regret the inconvenience, contact section is in maintainace. Please
+          check back later! or refer mobile device.
+        </h3>
         <div className={style.ContactDetail}>
           <h2>GET IN TOUCH!</h2>
           <h4>EMAIL</h4>
