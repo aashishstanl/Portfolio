@@ -6,7 +6,8 @@
       "year": "2023",
       "TechStack": "React.js",
       "description": "This is my personal portfolio website, built using React.js. The website includes information about my background, skills, and experience. It also includes a selection of my work, such as projects and case studies. The website is fully responsive and custom-designed to showcase my skills and style.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQR_eMdgi5nXkeC0cz-fnPr7j6hqiXJqLew&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQR_eMdgi5nXkeC0cz-fnPr7j6hqiXJqLew&usqp=CAU",
+      "Link": "https://aashishstanl-portfolio.netlify.app/"
     },
     {
       "Heading": "Food Delivery App",
@@ -14,7 +15,8 @@
       "year": "2023",
       "TechStack": "HTML, CSS, JavaScript",
       "description": " This is a food delivery app built using HTML, CSS, and JavaScript. The app allows users to browse a menu of food items, add items to their cart, and place an order for delivery. The app also includes features such as user authentication, payment processing, and real-time tracking of orders.",
-      "image": "https://aashishstanl.github.io/Food_Delivery_App/Images/Rectangle%20(3).png"
+      "image": "https://aashishstanl.github.io/Food_Delivery_App/Images/Rectangle%20(3).png",
+      "Link": "https://aashishstanl.github.io/Food_Delivery_App/"
     },
 
     {
@@ -23,7 +25,8 @@
       "year": "2024",
       "TechStack": "React.js",
       "description": "A dynamic and user-friendly OTP login functionality for Hotstar! This project showcases technical prowess and commitment to delivering an exceptional user experience. The page seamlessly integrates the OTP verification process, ensuring a secure and hassle-free entry for users into the Hotstar platform. Focused on overall every aspects of inconvenience may occur to user.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31BjRcEDTLioDPXRYZS1uXSP5kuZaOSCs7Q&usqp=CAU"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31BjRcEDTLioDPXRYZS1uXSP5kuZaOSCs7Q&usqp=CAU",
+      "Link": "https://aashishstanl-hotstar-netflix-etc-otp.netlify.app/"
     },
     {
       "Heading": "Taco Bell Website",
@@ -31,7 +34,8 @@
       "year": "2022",
       "TechStack": "React.js",
       "description": "This is the website for Taco Bell, built using React.js. The website includes information about Taco Bell's menu, locations, and promotions. It also includes features such as online ordering, gift card purchases, and a store locator.",
-      "image": "https://aashishstanl.github.io/TACO_BELL_Clone/Images/toppicmenu.png"
+      "image": "https://aashishstanl.github.io/TACO_BELL_Clone/Images/toppicmenu.png",
+      "Link": "https://aashishstanl.github.io/TACO_BELL_Clone/"
     }
   ]
 }

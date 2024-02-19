@@ -9,11 +9,13 @@ function ProjectCard() {
         <>
           <section key={ProjectDetail.Title}>
             <div className={Projects.Display}>
-              <img src={ProjectDetail.image} alt="LOGO" />
+              <a href={ProjectDetail.Link} target="_blank">
+                {" "}
+                <img src={ProjectDetail.image} alt="LOGO" />
+              </a>
             </div>
             <div className={Projects.Project1}>
               <h1>{ProjectDetail.Heading}</h1>
-
               <div className={Projects.span}>
                 <span>{ProjectDetail.year}</span>
                 <span>|</span>

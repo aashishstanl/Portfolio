@@ -1,28 +1,24 @@
 .Header {
+  top: 0% !important;
   margin: 0;
-  left: 0;
-  right: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   list-style: none;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 600;
   background-color: silver;
   gap: 6rem;
   height: 50px;
   align-items: center;
-
   min-width: 375px;
-
-  position: fixed;
   width: 100%;
-  top: 0px;
+  position: fixed;
 }
 .Header a {
   text-decoration: none;
   color: black;
   transition: all 0.5s ease-in-out;
-  padding: 8px;
   border-radius: 5px;
 }
 
@@ -30,7 +26,7 @@
   .Header {
     flex-wrap: nowrap;
     overflow-x: hidden;
-    font-size: 20px;
+    font-size: 1.4rem;
     gap: 2.5rem;
   }
   @media screen and (min-width: 426px) and (max-width: 600px) {
@@ -38,13 +34,12 @@
       background-color: darksalmon;
       gap: 20px;
       font-size: medium;
-      justify-content: center;
     }
   }
   @media screen and (max-width: 425px) {
     .Header {
       background-color: darksalmon;
-      gap: 5px;
+      gap: 1rem;
       font-size: small;
       justify-content: center;
       margin: 0;
