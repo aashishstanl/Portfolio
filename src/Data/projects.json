@@ -1,6 +1,24 @@
 {
   "project": [
     {
+      "Heading": "Hotstar OTP login functionality",
+      "Title": "Hotstar",
+      "year": "2024",
+      "TechStack": "React.js | Hooks [ useState, useEffect, useRefs ]",
+      "description": "A dynamic and user-friendly OTP login functionality for Hotstar! This project showcases technical prowess and commitment to delivering an exceptional user experience. The page seamlessly integrates the OTP verification process, ensuring a secure and hassle-free entry for users into the Hotstar platform. Focused on overall every aspects of inconvenience may occur to user.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31BjRcEDTLioDPXRYZS1uXSP5kuZaOSCs7Q&usqp=CAU",
+      "Link": "https://aashishstanl-hotstar-netflix-etc-otp.netlify.app/"
+    },
+    {
+      "Heading": "Pagination",
+      "Title": "Pagination",
+      "year": "2024",
+      "TechStack": "React.js",
+      "description": "A dynamic and customizable pagination component for React, leveraging the power of React Hooks to manage state and enhance user experience. This project aims to streamline the implementation of pagination in React applications, making it easy to integrate and adapt to various use cases..",
+      "image": "https://i.pinimg.com/564x/43/f9/f5/43f9f545b01a9642e0bcf3b9b4bcc415.jpg",
+      "Link": "https://aashishstanl-pagination.netlify.app/"
+    },
+    {
       "Heading": "Portfolio",
       "Title": "Portfolio",
       "year": "2023",
@@ -17,16 +35,6 @@
       "description": " This is a food delivery app built using HTML, CSS, and JavaScript. The app allows users to browse a menu of food items, add items to their cart, and place an order for delivery. The app also includes features such as user authentication, payment processing, and real-time tracking of orders.",
       "image": "https://aashishstanl.github.io/Food_Delivery_App/Images/Rectangle%20(3).png",
       "Link": "https://aashishstanl.github.io/Food_Delivery_App/"
-    },
-
-    {
-      "Heading": "Hotstar OTP login functionality",
-      "Title": "Hotstar",
-      "year": "2024",
-      "TechStack": "React.js",
-      "description": "A dynamic and user-friendly OTP login functionality for Hotstar! This project showcases technical prowess and commitment to delivering an exceptional user experience. The page seamlessly integrates the OTP verification process, ensuring a secure and hassle-free entry for users into the Hotstar platform. Focused on overall every aspects of inconvenience may occur to user.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31BjRcEDTLioDPXRYZS1uXSP5kuZaOSCs7Q&usqp=CAU",
-      "Link": "https://aashishstanl-hotstar-netflix-etc-otp.netlify.app/"
     },
     {
       "Heading": "Taco Bell Website",
