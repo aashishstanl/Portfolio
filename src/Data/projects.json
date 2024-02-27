@@ -24,7 +24,7 @@
       "year": "2024",
       "TechStack": "HTML | CSS | JavaScript",
       "description": "Create a dynamic image slider using HTML, CSS, and JavaScript. Enhance user experience with smooth transitions and responsive design. Implement features like autoplay, navigation controls, and customizable settings for a versatile and engaging slider project.",
-      "image": "https://github.com/aashishstanl/Portfolio/blob/main/src/Images/slider.PNG",
+      "image": "/src/Images/slider.png",
       "Link": "https://aashishstanl-slider.netlify.app/"
     },
     {

@@ -6,7 +6,13 @@ import ProjectCard from "./ProjectCard";
 function Project() {
   return (
     <div id="Project">
-      <h1 className={Projects.projectHeader}>PROJECTS</h1>
+      <div
+        className="projectHeaderConatiner"
+        style={{ display: "flex", gap: "10px" }}
+      >
+        <h1 className={Projects.projectHeader}>PROJECTS</h1>
+        <span style={{ marginTop: "12px" }}>6 items</span>
+      </div>
 
       <div className={Projects.projectContainer}>
         <ProjectCard></ProjectCard>
