@@ -19,6 +19,15 @@
       "Link": "https://aashishstanl-pagination.netlify.app/"
     },
     {
+      "Heading": "SLIDER",
+      "Title": "Slider",
+      "year": "2024",
+      "TechStack": "HTML | CSS | JavaScript",
+      "description": "Create a dynamic image slider using HTML, CSS, and JavaScript. Enhance user experience with smooth transitions and responsive design. Implement features like autoplay, navigation controls, and customizable settings for a versatile and engaging slider project.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQR_eMdgi5nXkeC0cz-fnPr7j6hqiXJqLew&usqp=CAU",
+      "Link": "https://aashishstanl-portfolio.netlify.app/"
+    },
+    {
       "Heading": "Portfolio",
       "Title": "Portfolio",
       "year": "2023",
