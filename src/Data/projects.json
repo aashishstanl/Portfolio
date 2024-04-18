@@ -7,7 +7,7 @@
       "TechStack": "React.js | Hooks [ useState, useEffect, useRefs ]",
       "description": "A dynamic and user-friendly OTP login functionality for Hotstar! This project showcases technical prowess and commitment to delivering an exceptional user experience. The page seamlessly integrates the OTP verification process, ensuring a secure and hassle-free entry for users into the Hotstar platform. Focused on overall every aspects of inconvenience may occur to user.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31BjRcEDTLioDPXRYZS1uXSP5kuZaOSCs7Q&usqp=CAU",
-      "Link": "https://aashishstanl-hotstar-netflix-etc-otp.netlify.app/"
+      "Link": "https://aashishstanl-hotstar-otp.netlify.app/"
     },
     {
       "Heading": "Pagination",
